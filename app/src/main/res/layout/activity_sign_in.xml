@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_4sdp"
             android:text="@string/login_to_continue"
-            android:textColor="@color/seconndary_text"
+            android:textColor="@color/secondary_text"
             android:textSize="@dimen/_12sdp"
             android:textStyle="bold"/>
         <EditText
@@ -70,5 +70,14 @@
             android:textSize="@dimen/_13sdp"
             android:textStyle="bold"
             app:cornerRadius="@dimen/_8sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textCreateNewAccount"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:text="@string/create_new_account"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold"/>
     </LinearLayout>
 </ScrollView>
